@@ -39,13 +39,13 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-muted/30">
+    <section className="py-20 bg-cinematographic-dark">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-warm-white mb-4">
             Serviços em <span className="text-gradient">Destaque</span>
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
             Soluções completas em edição de vídeo para suas necessidades
           </p>
         </div>
@@ -54,24 +54,24 @@ const ServicesSection = () => {
           {services.map((service, index) => (
             <Card 
               key={index} 
-              className="text-center hover:shadow-lg transition-all duration-300 hover:-translate-y-1 animate-fade-in"
+              className="text-center hover:shadow-lg hover:shadow-golden-amber/20 transition-all duration-300 hover:-translate-y-1 animate-fade-in bg-charcoal border-near-black"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <CardHeader>
-                <div className="mx-auto mb-4 w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                <div className="mx-auto mb-4 w-16 h-16 bg-golden-amber/10 rounded-full flex items-center justify-center text-golden-amber">
                   {service.icon}
                 </div>
-                <CardTitle className="text-xl">{service.title}</CardTitle>
+                <CardTitle className="text-xl text-warm-white">{service.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">{service.description}</p>
+                <p className="text-gray-300">{service.description}</p>
               </CardContent>
             </Card>
           ))}
         </div>
 
         <div className="text-center">
-          <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
+          <Button asChild size="lg" className="bg-golden-amber hover:bg-golden-honey text-cinematographic-dark font-semibold">
             <Link to="/servicos">Conheça Todos os Serviços</Link>
           </Button>
         </div>

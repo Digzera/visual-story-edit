@@ -5,11 +5,11 @@ import { ArrowDown } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen hero-gradient flex items-center justify-center relative overflow-hidden">
-      {/* Background Video Placeholder */}
+    <section className="min-h-screen bg-cinematographic-dark flex items-center justify-center relative overflow-hidden">
+      {/* Background overlay */}
       <div className="absolute inset-0 z-0">
-        <div className="w-full h-full bg-gradient-to-br from-dark via-charcoal to-dark opacity-90"></div>
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1920&h=1080&fit=crop')] bg-cover bg-center opacity-20"></div>
+        <div className="w-full h-full bg-gradient-to-br from-cinematographic-dark via-charcoal to-cinematographic-dark opacity-95"></div>
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=1920&h=1080&fit=crop')] bg-cover bg-center opacity-10"></div>
       </div>
 
       {/* Content */}
@@ -30,7 +30,7 @@ const Hero = () => {
             <Button 
               asChild 
               size="lg" 
-              className="bg-electric-blue hover:bg-electric-blue/90 text-dark font-semibold px-8 py-3 text-lg"
+              className="bg-golden-amber hover:bg-golden-honey text-cinematographic-dark font-semibold px-8 py-3 text-lg transition-all duration-300 hover:shadow-lg hover:shadow-golden-amber/20"
             >
               <Link to="/portfolio">Veja Meus Projetos</Link>
             </Button>
@@ -39,7 +39,7 @@ const Hero = () => {
               asChild 
               variant="outline" 
               size="lg"
-              className="border-electric-blue text-electric-blue hover:bg-electric-blue hover:text-dark px-8 py-3 text-lg"
+              className="border-golden-amber text-golden-amber hover:bg-golden-amber hover:text-cinematographic-dark px-8 py-3 text-lg transition-all duration-300"
             >
               <Link to="/contato">Entre em Contato</Link>
             </Button>
@@ -47,7 +47,7 @@ const Hero = () => {
 
           {/* Scroll Indicator */}
           <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-            <ArrowDown className="h-6 w-6 text-electric-blue" />
+            <ArrowDown className="h-6 w-6 text-golden-amber" />
           </div>
         </div>
       </div>

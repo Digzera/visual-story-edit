@@ -17,7 +17,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-cinematographic-dark/95 backdrop-blur-md border-b border-charcoal">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -31,7 +31,7 @@ const Header = () => {
               <Link
                 key={item.name}
                 to={item.href}
-                className="text-foreground hover:text-primary transition-colors duration-200 font-medium"
+                className="text-warm-white hover:text-golden-amber transition-colors duration-200 font-medium"
               >
                 {item.name}
               </Link>
@@ -40,7 +40,7 @@ const Header = () => {
 
           {/* CTA Button - Desktop */}
           <div className="hidden md:block">
-            <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
+            <Button asChild className="bg-golden-amber hover:bg-golden-honey text-cinematographic-dark font-semibold transition-all duration-300">
               <Link to="/contato">Solicite Orçamento</Link>
             </Button>
           </div>
@@ -48,11 +48,11 @@ const Header = () => {
           {/* Mobile Menu Button */}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild className="md:hidden">
-              <Button variant="ghost" size="icon">
+              <Button variant="ghost" size="icon" className="text-warm-white hover:text-golden-amber">
                 <Menu className="h-6 w-6" />
               </Button>
             </SheetTrigger>
-            <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+            <SheetContent side="right" className="w-[300px] sm:w-[400px] bg-charcoal border-l border-near-black">
               <div className="flex flex-col space-y-6 mt-6">
                 <Link to="/" className="font-heading text-xl font-bold text-gradient">
                   Editor Pro
@@ -63,7 +63,7 @@ const Header = () => {
                     <Link
                       key={item.name}
                       to={item.href}
-                      className="text-foreground hover:text-primary transition-colors duration-200 font-medium text-lg"
+                      className="text-warm-white hover:text-golden-amber transition-colors duration-200 font-medium text-lg"
                       onClick={() => setIsOpen(false)}
                     >
                       {item.name}
@@ -71,7 +71,7 @@ const Header = () => {
                   ))}
                 </nav>
 
-                <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground mt-6">
+                <Button asChild className="bg-golden-amber hover:bg-golden-honey text-cinematographic-dark font-semibold mt-6">
                   <Link to="/contato" onClick={() => setIsOpen(false)}>
                     Solicite Orçamento
                   </Link>

@@ -63,10 +63,12 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				dark: '#0a0a0a',
-				charcoal: '#1a1a1a',
-				'electric-blue': '#00d9ff',
-				'warm-white': '#f8f9fa'
+				'cinematographic-dark': '#0c0c0c',
+				'charcoal': '#262626',
+				'near-black': '#141414',
+				'golden-amber': '#ffc107',
+				'golden-honey': '#ffb300',
+				'warm-white': '#ffffff'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

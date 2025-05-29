@@ -229,7 +229,7 @@ const Contact = () => {
 
                       <Button 
                         type="submit" 
-                        className="w-full bg-primary hover:bg-primary/90" 
+                        className="w-full bg-golden-amber hover:bg-golden-honey text-cinematographic-dark font-semibold" 
                         size="lg"
                         disabled={isSubmitting}
                       >
@@ -317,7 +317,7 @@ const Contact = () => {
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
               Entre em contato via WhatsApp para uma conversa rápida e esclareça todas as suas dúvidas.
             </p>
-            <Button asChild size="lg" className="bg-electric-blue hover:bg-electric-blue/90 text-dark">
+            <Button asChild size="lg" className="bg-golden-amber hover:bg-golden-honey text-cinematographic-dark font-semibold">
               <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
                 Chamar no WhatsApp
               </a>

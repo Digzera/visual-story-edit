@@ -49,15 +49,15 @@ const About = () => {
                   Com anos de experiência em edição de vídeo, especializo-me em criar conteúdo 
                   que conecta, engaja e gera resultados reais.
                 </p>
-                <Button asChild size="lg" className="bg-electric-blue hover:bg-electric-blue/90 text-dark">
+                <Button asChild size="lg" className="bg-golden-amber hover:bg-golden-honey text-cinematographic-dark font-semibold">
                   <Link to="/contato">Vamos Conversar</Link>
                 </Button>
               </div>
               
               <div className="relative animate-fade-in" style={{ animationDelay: "0.3s" }}>
-                <div className="w-full h-96 bg-gradient-to-br from-electric-blue/20 to-transparent rounded-lg flex items-center justify-center">
+                <div className="w-full h-96 bg-gradient-to-br from-primary/20 to-transparent rounded-lg flex items-center justify-center">
                   <div className="w-64 h-64 bg-muted rounded-lg flex items-center justify-center">
-                    <span className="text-muted-foreground">Foto Profissional</span>
+                    <span className="text-gray-300">Foto Profissional</span>
                   </div>
                 </div>
               </div>
@@ -74,20 +74,20 @@ const About = () => {
               </h2>
               
               <div className="prose prose-lg max-w-none">
-                <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+                <p className="text-lg text-gray-300 mb-6 leading-relaxed">
                   Minha paixão por edição de vídeo começou há mais de 5 anos, quando descobri o poder 
                   de transformar horas de material bruto em histórias envolventes e impactantes. 
                   O que começou como hobby rapidamente se tornou uma obsessão saudável por criar 
                   conteúdo visual que realmente faz a diferença.
                 </p>
                 
-                <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+                <p className="text-lg text-gray-300 mb-6 leading-relaxed">
                   Ao longo dos anos, tive o privilégio de trabalhar com diversos clientes, desde 
                   influenciadores digitais até grandes corporações, sempre com o mesmo objetivo: 
                   transformar suas visões em realidade através de vídeos excepcionais.
                 </p>
                 
-                <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+                <p className="text-lg text-gray-300 mb-8 leading-relaxed">
                   Formado pelo renomado curso "Editor DR", continuo em constante aprendizado, 
                   sempre em busca das mais recentes técnicas e tecnologias para oferecer 
                   o melhor serviço possível aos meus clientes.
@@ -104,7 +104,7 @@ const About = () => {
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Minhas <span className="text-gradient">Habilidades</span>
               </h2>
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              <p className="text-lg text-gray-300 max-w-2xl mx-auto">
                 Domínio técnico combinado com visão criativa para entregar resultados excepcionais
               </p>
             </div>
@@ -126,7 +126,7 @@ const About = () => {
                 </div>
                 
                 <h3 className="text-2xl font-semibold mb-4">Soft Skills</h3>
-                <ul className="space-y-3 text-muted-foreground">
+                <ul className="space-y-3 text-gray-300">
                   <li>• <strong>Comunicação eficaz</strong> - Traduzindo ideias complexas em conceitos visuais claros</li>
                   <li>• <strong>Atenção aos detalhes</strong> - Cada frame é cuidadosamente considerado</li>
                   <li>• <strong>Gestão de tempo</strong> - Entregando projetos de qualidade dentro dos prazos</li>
@@ -186,7 +186,7 @@ const About = () => {
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Valores e <span className="text-gradient">Filosofia</span>
               </h2>
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              <p className="text-lg text-gray-300 max-w-2xl mx-auto">
                 Os princípios que guiam meu trabalho e garantem resultados excepcionais
               </p>
             </div>
@@ -218,7 +218,7 @@ const About = () => {
               Vamos conversar sobre seu próximo projeto e descobrir como posso ajudar 
               a transformar suas ideias em vídeos impactantes.
             </p>
-            <Button asChild size="lg" className="bg-electric-blue hover:bg-electric-blue/90 text-dark">
+            <Button asChild size="lg" className="bg-golden-amber hover:bg-golden-honey text-cinematographic-dark font-semibold">
               <Link to="/contato">Vamos Começar</Link>
             </Button>
           </div>

@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -115,7 +114,7 @@ const Contact = () => {
                     </div>
                     <h3 className="font-semibold mb-2">{info.title}</h3>
                     <p className="text-primary font-medium mb-1">{info.info}</p>
-                    <p className="text-sm text-muted-foreground">{info.description}</p>
+                    <p className="text-sm text-gray-300">{info.description}</p>
                   </CardContent>
                 </Card>
               ))}
@@ -128,7 +127,7 @@ const Contact = () => {
                 <Card>
                   <CardHeader>
                     <CardTitle className="text-2xl">Solicite seu Orçamento</CardTitle>
-                    <p className="text-muted-foreground">
+                    <p className="text-gray-300">
                       Preencha o formulário abaixo e receba uma proposta personalizada
                     </p>
                   </CardHeader>
@@ -256,7 +255,7 @@ const Contact = () => {
                 <Card>
                   <CardContent className="p-6">
                     <h3 className="font-semibold mb-2">Quanto tempo leva para editar um vídeo?</h3>
-                    <p className="text-muted-foreground text-sm">
+                    <p className="text-gray-300 text-sm">
                       O prazo varia conforme a complexidade do projeto. Vídeos simples levam 2-3 dias, 
                       enquanto projetos mais complexos podem levar 5-7 dias. Ofereço também serviço 
                       expressa com entrega em 24h.
@@ -267,7 +266,7 @@ const Contact = () => {
                 <Card>
                   <CardContent className="p-6">
                     <h3 className="font-semibold mb-2">Quais formatos de arquivo você aceita?</h3>
-                    <p className="text-muted-foreground text-sm">
+                    <p className="text-gray-300 text-sm">
                       Trabalho com praticamente todos os formatos: MP4, MOV, AVI, MKV, etc. 
                       Se tiver dúvidas sobre um formato específico, entre em contato.
                     </p>
@@ -277,7 +276,7 @@ const Contact = () => {
                 <Card>
                   <CardContent className="p-6">
                     <h3 className="font-semibold mb-2">Como é feita a entrega do projeto?</h3>
-                    <p className="text-muted-foreground text-sm">
+                    <p className="text-gray-300 text-sm">
                       A entrega é feita via Google Drive, WeTransfer ou plataforma de sua preferência. 
                       Forneço o vídeo nos formatos e resoluções solicitados.
                     </p>
@@ -287,7 +286,7 @@ const Contact = () => {
                 <Card>
                   <CardContent className="p-6">
                     <h3 className="font-semibold mb-2">Quantas revisões estão incluídas?</h3>
-                    <p className="text-muted-foreground text-sm">
+                    <p className="text-gray-300 text-sm">
                       Depende do pacote escolhido. Geralmente incluo 2-3 rodadas de revisão. 
                       Revisões adicionais podem ser contratadas separadamente.
                     </p>
@@ -297,7 +296,7 @@ const Contact = () => {
                 <Card>
                   <CardContent className="p-6">
                     <h3 className="font-semibold mb-2">Você trabalha com projetos internacionais?</h3>
-                    <p className="text-muted-foreground text-sm">
+                    <p className="text-gray-300 text-sm">
                       Sim! Trabalho remotamente e posso atender clientes de qualquer lugar do mundo. 
                       Tenho experiência com diferentes fusos horários e métodos de comunicação.
                     </p>

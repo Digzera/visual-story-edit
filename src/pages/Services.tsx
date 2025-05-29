@@ -1,4 +1,3 @@
-
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -150,7 +149,7 @@ const Services = () => {
                       {service.icon}
                     </div>
                     <CardTitle className="text-xl mb-2">{service.title}</CardTitle>
-                    <p className="text-muted-foreground">{service.description}</p>
+                    <p className="text-gray-300">{service.description}</p>
                   </CardHeader>
                   
                   <CardContent className="space-y-6">
@@ -169,7 +168,7 @@ const Services = () => {
                     <div className="flex justify-between items-center pt-4 border-t">
                       <div className="space-y-1">
                         <div className="font-semibold text-primary">{service.price}</div>
-                        <div className="flex items-center gap-1 text-sm text-muted-foreground">
+                        <div className="flex items-center gap-1 text-sm text-gray-300">
                           <Clock className="h-4 w-4" />
                           {service.deliveryTime}
                         </div>
@@ -193,7 +192,7 @@ const Services = () => {
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Como <span className="text-gradient">Funciona</span>
               </h2>
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              <p className="text-lg text-gray-300 max-w-2xl mx-auto">
                 Meu processo transparente e colaborativo garante que seu projeto seja 
                 executado com excelência do início ao fim.
               </p>
@@ -213,7 +212,7 @@ const Services = () => {
                   </div>
                   <div className="flex-grow">
                     <h3 className="text-xl font-semibold mb-2">{step.title}</h3>
-                    <p className="text-muted-foreground leading-relaxed">{step.description}</p>
+                    <p className="text-gray-300 leading-relaxed">{step.description}</p>
                   </div>
                 </div>
               ))}
@@ -228,7 +227,7 @@ const Services = () => {
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
                 Pacotes <span className="text-gradient">Especiais</span>
               </h2>
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              <p className="text-lg text-gray-300 max-w-2xl mx-auto">
                 Economize com nossos pacotes personalizados para projetos maiores
               </p>
             </div>
@@ -238,7 +237,7 @@ const Services = () => {
                 <CardHeader className="text-center">
                   <CardTitle className="text-xl">Pacote Starter</CardTitle>
                   <div className="text-3xl font-bold text-primary">R$ 800</div>
-                  <p className="text-muted-foreground">Ideal para pequenos projetos</p>
+                  <p className="text-gray-300">Ideal para pequenos projetos</p>
                 </CardHeader>
                 <CardContent className="space-y-3">
                   <div className="flex items-center gap-2">
@@ -267,7 +266,7 @@ const Services = () => {
                 <CardHeader className="text-center">
                   <CardTitle className="text-xl">Pacote Professional</CardTitle>
                   <div className="text-3xl font-bold text-primary">R$ 1.500</div>
-                  <p className="text-muted-foreground">Para projetos completos</p>
+                  <p className="text-gray-300">Para projetos completos</p>
                 </CardHeader>
                 <CardContent className="space-y-3">
                   <div className="flex items-center gap-2">
@@ -297,7 +296,7 @@ const Services = () => {
                 <CardHeader className="text-center">
                   <CardTitle className="text-xl">Pacote Premium</CardTitle>
                   <div className="text-3xl font-bold text-primary">R$ 2.800</div>
-                  <p className="text-muted-foreground">Solução completa</p>
+                  <p className="text-gray-300">Solução completa</p>
                 </CardHeader>
                 <CardContent className="space-y-3">
                   <div className="flex items-center gap-2">
@@ -336,7 +335,7 @@ const Services = () => {
               Solicite um orçamento personalizado e descubra como posso ajudar a 
               transformar suas ideias em vídeos impactantes.
             </p>
-            <Button asChild size="lg" className="bg-electric-blue hover:bg-electric-blue/90 text-dark">
+            <Button asChild size="lg" className="bg-golden-amber hover:bg-golden-honey text-cinematographic-dark font-semibold">
               <Link to="/contato">Solicite seu Orçamento</Link>
             </Button>
           </div>
